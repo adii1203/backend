@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "'backend with chai aur code'",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "nodemon src/index.js"
   },
@@ -11,5 +12,9 @@
   "devDependencies": {
     "nodemon": "^3.0.1",
     "prettier": "^3.0.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "mongoose": "^8.0.0"
   }
 }
